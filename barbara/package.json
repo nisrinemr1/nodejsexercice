@@ -1,0 +1,19 @@
+{
+  "name": "nodejsexercice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nisrinemr1/nodejsexercice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nisrinemr1/nodejsexercice/issues"
+  },
+  "homepage": "https://github.com/nisrinemr1/nodejsexercice#readme"
+}

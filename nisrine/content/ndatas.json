@@ -1,0 +1,56 @@
+{
+    "test": [
+        {
+            "id": 1,
+            "name": "Catégorie principale",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+            "desc": "just a test for the first test",
+            "secondtest" :[
+                {
+                    "id" : 1,
+                    "name" : "Sous-catégorie",
+                    "desc": "sous categorie",
+                    "thirdtest": [
+                        {
+                            "id" : 1,
+                            "name" : "Sous sous-catégorie",
+                            "desc": "third category bref.",
+                            "forthtest": [
+                                {
+                                    "id" : 1,
+                                    "name" : "Last category"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Cacahuète",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+            "desc": "just a test for the first test",
+            "secondtest" :[
+                {
+                    "id" : 2,
+                    "name" : "Pinochio",
+                    "desc": "sous categorie",
+                    "thirdtest": [
+                        {
+                            "id" : 2,
+                            "name" : "Iman Barbara",
+                            "desc": "third category bref.",
+                            "forthtest": [
+                                {
+                                    "id" : 2,
+                                    "name" : "Nisrine la cacahuète"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

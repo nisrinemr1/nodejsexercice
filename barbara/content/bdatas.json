@@ -2,17 +2,51 @@
     "test" :[
         {
             "id" : 1,
-            "name" : "firstTest",
+            "name" : "Catégorie Principale",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
             "desc" : "just a test for the first test",
             "secondtest" : [
                 {
                     "id" : 1,
-                    "name" : "secondtest",
+                    "name" : "Sous-catégorie",
                     "desc" : "sous categorie",
                     "thirdtest" : [
                         {
                             "id" : 1,
-                            "name" : "thirdtest"
+                            "name" : "Sous sous-catégorie",
+                            "desc" : "third category bref.",
+                            "forthtest" : [
+                                {
+                                    "id" : 1,
+                                    "name" : "Last category"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Catégorie Principale",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+            "desc" : "just a test for the first test",
+            "secondtest" : [
+                {
+                    "id" : 1,
+                    "name" : "Sous-catégorie",
+                    "desc" : "sous categorie",
+                    "thirdtest" : [
+                        {
+                            "id" : 1,
+                            "name" : "Sous sous-catégorie",
+                            "desc" : "third category bref.",
+                            "forthtest" : [
+                                {
+                                    "id" : 1,
+                                    "name" : "Last category"
+                                }
+                            ]
                         }
                     ]
                 }

@@ -22,12 +22,6 @@ fs.readFile("./content/ndatas.json", (error, datas) =>{
 
                item_subsubcateg.fourthtest.forEach((item_fourthcateg) => {
                    console.log("_________" + item_fourthcateg.name)
-
-                   if(item_fourthcateg.acteurs){
-                       item_fourthcateg.acteurs.forEach((item_acteurs) =>{
-                           console.log("+++++++++" + item_acteurs.name)
-                       })
-                   }
                })
            })
        })

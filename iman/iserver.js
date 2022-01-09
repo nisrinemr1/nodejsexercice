@@ -14,6 +14,27 @@ fs.readFile("./content/idatas.json", (error, datas) => {
     datas= datas.toString() // rendre le data en string
     datas = JSON.parse(datas) // rendre le dossier JSON
 
-    console.log(datas)
+  //  console.log(datas) //avoir un aperçu du résultat avec la ligne 9 et 10
+
+    datas.test.forEach((item_categ) => {
+        console.log("==" + item_categ.name);
+
+        item_categ.secondtest.forEach((item_subcateg) => {
+            console.log("--" + item_subcateg.name);
+
+            item_subcateg.thirdtest.forEach((item_subsubcateg) => {
+                console.log("__" + item_subsubcateg.name);
+
+                item_subsubcateg.fourthtest.forEach((item_forthcateg) => {
+                    console.log("_-_-" + item_forthcateg.name);
+
+                    
+                
+                })
+            })
+        })
+
+      
+    })
 
 })

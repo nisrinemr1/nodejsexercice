@@ -15,14 +15,19 @@
                     "id" :3,
                     "name" : "sous sous-categorie",
                     "desc" : "third category",
-                    "fourthest" : [
+                    "fourthtest" : [
                         {
                             "id" : 4,
-                            "name" : "last category"
+                            "name" : "last category1"
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "last category1"
                         }
                     ]
 
                 }
+
             ]
         }
     
@@ -43,10 +48,14 @@
                     "id" :3,
                     "name" : "Iman Barbara",
                     "desc" : "third category",
-                    "fourthest" : [
+                    "fourthtest" : [
                         {
                             "id" : 4,
                             "name" : "Nis a cacahuète"
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "last category"
                         }
                     ]
 
@@ -55,7 +64,71 @@
         }
     
     ]
- }
+  },
+  {
+    "id" : "3",
+    "name" : "Categorie principale3",
+    "__comment__1" : "le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+    "desc" : "just a test for the first test",
+    "secondtest" : [
+        {
+            "id" : 2,
+            "name" :"sous-categorie3",
+            "desc" :"sous categorie",
+            "thirdtest" :[
+                {
+                    "id" :3,
+                    "name" : "sous sous-categorie",
+                    "desc" : "third category",
+                    "fourthtest" : [
+                        {
+                            "id" : 4,
+                            "name" : "last category"
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "last category"
+                        }
+                    ]
 
-]
+                }
+            ]
+        }
+    
+    ]
+},
+{
+    "id" : "4",
+    "name" : "Categorie principale4",
+    "__comment__1" : "le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+    "desc" : "just a test for the first test",
+    "secondtest" : [
+        {
+            "id" : 2,
+            "name" :"sous-categorie",
+            "desc" :"sous categorie",
+            "thirdtest" :[
+                {
+                    "id" :3,
+                    "name" : "sous sous-categorie",
+                    "desc" : "third category",
+                    "fourthtest" : [
+                        {
+                            "id" : 4,
+                            "name" : "last category"
+                        },
+                        {
+                            "id" : 5,
+                            "name" : "last category"
+                        }
+                    ]
+
+                }
+            ]
+        }
+    
+    ]
+}
+
+ ]
 }

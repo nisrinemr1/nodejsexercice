@@ -1,0 +1,22 @@
+]
+    {
+        "id" : 1,
+        "name" : "G-Dragon",
+        "desc" : "Membre du groupe Big Bang dans YG family"
+    },
+    {
+        "id" : 2,
+        "name" : "Gong Ji-chul (Gong Yoo)",
+        "desc" : "Acteur"
+    },
+    {
+        "id" : 3,
+        "name" : "Kim Hee Chul",
+        "desc" : "Commédien et membre du groupe Super Junior."
+    },
+    {
+        "id" : 4,
+        "name" : "Park Chan-Wook ",
+        "desc" : "réalisateur, scénariste, producteur, acteur et créateur"
+    }
+]

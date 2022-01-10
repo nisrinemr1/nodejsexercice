@@ -1,0 +1,151 @@
+{
+    "categs" : [
+        {
+            "id" : 1,
+            "name" : "Gros électro",
+            "desc" : "Gros bidule qui consomme blinder",
+            "subcategs" : [
+                {
+                    "id" : 1,
+                    "name" : "Réfrigérant",
+                    "desc" : "Gros bidule qui consomme blinder mais qui garde le rhum au frais",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "frigo",
+                            "price" : 500
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "congélo",
+                            "price" : 500
+                        }
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name" : "Lavage",
+                    "desc" : "Pour avoir des slip bien propre",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "machine à laver",
+                            "price" : 1000
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "sèche-linge",
+                            "price" : 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "name" : "Petit électro",
+            "desc" : "surtout pour réchauffer les knakkiballs",
+            "subcategs" : [
+                {
+                    "id" : 1,
+                    "name" : "Déjeuner",
+                    "desc" : "Pour avoir des forces...",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "micro-ondes",
+                            "price" : 200
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "machine à café",
+                            "price" : 600
+                        }
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name" : "Hair style",
+                    "desc" : "Pour avoir des belles croles",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "sèche cheveux",
+                            "price" : 70
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "tondeuse",
+                            "price" : 70
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "name" : "Smartphones",
+            "desc" : "Pour aller sur tiktok et facedebouk (Iman : Meta) PREND LA TETE",
+            "subcategs" : [
+                {
+                    "id" : 1,
+                    "name" : "+ 7\"",
+                    "desc" : "inutile pour nos petits doigts de fées",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "Samsung galaxy s10+",
+                            "price" : 1000
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Oppo P30 plus du turfu",
+                            "price" : 600
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "name" : "TV & Hi-fi",
+            "desc" : "Pour regarder le seigneur des anneaux en 4k utlra hd",
+            "subcategs" : [
+                {
+                    "id" : 1,
+                    "name" : "Ecrans plats",
+                    "desc" : "Bidule tout fin, qui pète au transport",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "Sony 50\"",
+                            "price" : 500
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Toshiba 70\"",
+                            "price" : 1000
+                        }
+                    ]
+                },
+                {
+                    "id" : 2,
+                    "name" : "Ecrans cathodique",
+                    "desc" : "La boite à troubadour messire",
+                    "products" : [
+                        {
+                            "id" : 1,
+                            "name" : "12\"",
+                            "price" : 250
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "15\"",
+                            "price" : 350
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

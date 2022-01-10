@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "name" : "Acteurs",
+        "desc" : "Desc sub categ principale 1"
+    },
+    {
+        "id" : 2,
+        "name" : "Chanteurs",
+        "desc" : "Desc sub categ principale 2"
+    },
+    {
+        "id" : 3,
+        "name" : "Realisateurs",
+        "desc" : "Desc sub categ principale 3"
+    },
+    {
+        "id" : 4,
+        "name" : "Commediens",
+        "desc" : "Desc sub categ principale 4"
+    }
+]

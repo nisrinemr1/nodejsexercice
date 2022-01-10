@@ -1,24 +1,28 @@
 {
-    "test" :[
+    "test": [
         {
-            "id" : 1,
-            "name" : "Catégorie Principale",
+            "id": 1,
+            "name": "Catégorie principale",
             "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
-            "desc" : "just a test for the first test",
-            "secondtest" : [
+            "desc": "just a test for the first test",
+            "secondtest" :[
                 {
                     "id" : 1,
                     "name" : "Sous-catégorie",
-                    "desc" : "sous categorie",
-                    "thirdtest" : [
+                    "desc": "sous categorie",
+                    "thirdtest": [
                         {
                             "id" : 1,
                             "name" : "Sous sous-catégorie",
-                            "desc" : "third category bref.",
-                            "forthtest" : [
+                            "desc": "third category bref.",
+                            "fourthtest": [
                                 {
                                     "id" : 1,
                                     "name" : "Last category"
+                                },
+                                {
+                                    "id" : 2,
+                                    "name" : "bêeeeteuuuuh"
                                 }
                             ]
                         }
@@ -27,24 +31,88 @@
             ]
         },
         {
-            "id" : 2,
-            "name" : "Catégorie Principale",
+            "id": 2,
+            "name": "Cacahuète",
             "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
-            "desc" : "just a test for the first test",
-            "secondtest" : [
+            "desc": "just a test for the first test",
+            "secondtest" :[
                 {
-                    "id" : 1,
-                    "name" : "Sous-catégorie",
-                    "desc" : "sous categorie",
-                    "thirdtest" : [
+                    "id" : 2,
+                    "name" : "Pinochio",
+                    "desc": "sous categorie",
+                    "thirdtest": [
                         {
-                            "id" : 1,
-                            "name" : "Sous sous-catégorie",
-                            "desc" : "third category bref.",
-                            "forthtest" : [
+                            "id" : 2,
+                            "name" : "Iman Barbara",
+                            "desc": "third category bref.",
+                            "fourthtest": [
                                 {
                                     "id" : 1,
-                                    "name" : "Last category"
+                                    "name" : "Nisrine la cacahuète"
+                                },
+                                {
+                                    "id" : 2,
+                                    "name" : "bêeeeteuuuuh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kim HeeChul",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+            "desc": "just a test for the first test",
+            "secondtest" :[
+                {
+                    "id" : 2,
+                    "name" : "T.O.P",
+                    "desc": "sous categorie",
+                    "thirdtest": [
+                        {
+                            "id" : 2,
+                            "name" : "G-Dragon",
+                            "desc": "third category bref.",
+                            "fourthtest": [
+                                {
+                                    "id" : 1,
+                                    "name" : "Lee Sora"
+                                },
+                                {
+                                    "id" : 2,
+                                    "name" : "bêeeeteuuuuh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Flemme",
+            "__comment__1" : "Le contenu du name sera ce qu'il y aura dans le site ou dans l'url",
+            "desc": "just a test for the first test",
+            "secondtest" :[
+                {
+                    "id" : 2,
+                    "name" : "La",
+                    "desc": "sous categorie",
+                    "thirdtest": [
+                        {
+                            "id" : 2,
+                            "name" : "Belle",
+                            "desc": "third category bref.",
+                            "fourthtest": [
+                                {
+                                    "id" : 1,
+                                    "name" : "Et la bête"
+                                },
+                                {
+                                    "id" : 2,
+                                    "name" : "bêeeeteuuuuh"
                                 }
                             ]
                         }

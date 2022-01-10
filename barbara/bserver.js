@@ -1,6 +1,5 @@
 const fs = require('fs'); 
-//lkjhgfdsdfgbhjklösxzcvbnk,.mbvcxzcvbk,l.-ösxcdfvghjknbvcfghm
-//nbvcvb cvbn vgbhnm cvbnm vcbnm vbn vbn
+
 console.log("hello");
 
 
@@ -19,10 +18,10 @@ fs.readFile("./content/bdatas.json", (error, datas) =>{
        item_subcateg.thirdtest.forEach((item_subsubcateg) =>{
            console.log("      "  + item_subsubcateg.name)
 
-           item_subsubcateg.fourthtest.forEach((item_fourthcateg) => {
-               console.log("_________" + item_fourthcateg.name)
-           })
-       })
-   })
-});
+                item_subsubcateg.fourthtest.forEach((item_fourthcateg) => {
+                    console.log("_________" + item_fourthcateg.name)
+                })
+            })
+        })
+    });
 })

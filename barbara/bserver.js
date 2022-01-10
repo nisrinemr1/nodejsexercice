@@ -10,6 +10,5 @@ fs.readFile("./content/bdatas.json", (error, datas) =>{
    datas = datas.toString();
    datas = JSON.parse(datas);
    
-   console.log(datas);
-
+   datas.test
 })

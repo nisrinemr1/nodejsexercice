@@ -1,0 +1,20 @@
+<%- include('../partials/_header.ejs') -%>
+
+    <h1>Liste des produits</h1>
+    <!-- On va afficher une liste de produits. -->
+    <h2><%= category %> </h2><!-- afficher le nom de la catégorie de la liste  -->
+
+    <!-- utilisation d'une boucle for off pour afficher tous les produit sans devoir se prendre la tête à tout noter sois-même. -->
+    <ul>
+        <% for(const p of products{ %>
+            <li><%= p.name %> <%= p.price %>€</li>
+        <% }) %>
+
+        <!-- possible même de faire avec une boucle for each -->
+        <!-- <% products.forEach(p =>{
+            <li><%= p.name %> <%= p.price %>€</li>
+        <% }) %> -->
+    </ul>
+    <!-- l'écriture est lourde sur ejs a cause des <% mais plus flexible car on peu injecter facilement du code javascript. -->
+
+<%- include('../partials/_footer.ejs') -%>

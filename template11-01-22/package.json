@@ -2,7 +2,7 @@
   "name": "template11-01-22",
   "version": "0.1.0",
   "description": "Demo templating ave node js",
-  "main": "server.js",
+  "main": "kikou.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

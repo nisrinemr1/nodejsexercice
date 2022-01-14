@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demon EJS</title>
-</head>
-<body>
+<%- include('../partials/_header.ejs') -%>
+
     <h1>Home</h1>
 
-    <p>Nous somme le : <%= dateDuJour %></p><!-- ejs va convertir ça et il va voir si il peut le faire -->
-</body>
-</html>
+    <!-- Il faut mettre les débuts des balises EJS pour qu'il sache que c'est à lui de savoir quoi mettre.  -->
+    <% if(isDay){ %>
+        <h2>Bonjour</h2>
+    <% } else{ %>
+        <h2>Bonsoir</h2>
+    <% } %>
+
+    <p>Nous somme le : <%= dateDuJour %>
+    </p><!-- ejs va convertir ça et il va voir si il peut le faire -->
+    
+<%- include('../partials/_footer.ejs') -%>
